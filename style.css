@@ -98,7 +98,8 @@ aside {
 .icon-list {
   height: 100%;
   border-left: 1px solid orange;
-  margin-left: 10px;
+  margin: 0;
+  margin-left: 4rem;
 
   list-style: none;
   display: grid;
