@@ -99,7 +99,10 @@ aside {
   height: 100%;
   border-left: 1px solid var(--clr-primary-300);
   margin: 0;
-  margin-left: 4rem;
+
+  /* use the clamp function to set the at minimum allowed margin, the preferred valuea nd then the maximum value
+  Note that we might come back later and change these numbers */
+  margin-left: clamp(1rem, 10vw, 4rem);
 
   list-style: none;
   display: grid;
