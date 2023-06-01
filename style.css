@@ -98,6 +98,12 @@ aside {
   margin: 0;
 }
 
+.page-title {
+  font-size: var(--fs-700);
+  text-transform: uppercase;
+  margin: 0;
+}
+
 .job-experience {
   display: grid;
   grid-auto-flow: column;
