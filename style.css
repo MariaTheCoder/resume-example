@@ -115,6 +115,13 @@ aside {
   grid-auto-flow: column;
 }
 
+.job {
+  width: 28.5rem;
+  border-radius: 0.25rem;
+  padding: 2rem;
+  background: var(--clr-primary-800);
+}
+
 .icon-list {
   height: 100%;
   border-left: 1px solid var(--clr-primary-300);
