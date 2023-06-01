@@ -6,6 +6,14 @@
   margin: 0;
 }
 
+img,
+svg,
+picture,
+video {
+  max-width: 100%;
+  display: block;
+}
+
 :root {
   /* colors */
   --clr-neutral-100: hsla(0, 0%, 100%, 1);
