@@ -122,6 +122,10 @@ aside {
   background: var(--clr-primary-800);
 }
 
+.job * {
+  margin: 0;
+}
+
 .icon-list {
   height: 100%;
   border-left: 1px solid var(--clr-primary-300);
