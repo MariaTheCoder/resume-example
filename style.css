@@ -73,6 +73,12 @@ body {
   display: grid;
   grid-template-columns: 15rem auto;
   grid-auto-flow: dense;
+  align-items: center;
+  /* the first value set for min-height acts as a fallback in case the unit dvh is not supported by the browser */
+  min-height: 100vh;
+  /* unit used for small viewports with interfaces that are dynamically expanded and retracted, e.g. smartphone screens. 
+  By using dynamic viewport units, the size will automatically adjust in response to the browser UI state */
+  min-height: 100dvh;
 }
 
 main {
