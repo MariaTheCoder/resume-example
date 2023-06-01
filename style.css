@@ -50,12 +50,13 @@ html {
 
 /* use custom variables for styling of the body element */
 body {
-  background-color: var(--clr-primary-800);
+  background-color: var(--clr-primary-700);
   color: var(--clr-neutral-100);
   font-family: var(--ff-base);
   font-size: var(--fs-400);
   font-weight: var(--fw-regular);
   line-height: 1.5;
+  margin: 0;
 }
 
 .visually-hidden {
