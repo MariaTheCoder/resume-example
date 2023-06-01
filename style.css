@@ -111,6 +111,7 @@ aside {
 
 .job-experience {
   display: grid;
+  gap: 1rem;
   grid-auto-flow: column;
 }
 
