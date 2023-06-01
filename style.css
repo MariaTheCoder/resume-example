@@ -87,6 +87,7 @@ main {
 
 aside {
   grid-column: 1;
+  align-self: stretch;
 }
 
 .job-experience {
@@ -95,6 +96,10 @@ aside {
 }
 
 .icon-list {
+  height: 100%;
+  border-left: 1px solid orange;
+  margin-left: 10px;
+
   list-style: none;
   display: grid;
   gap: 3rem;
