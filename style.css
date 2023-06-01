@@ -111,3 +111,7 @@ aside {
   height: 100px;
   width: auto;
 }
+
+.icon-list > li {
+  padding-left: 3rem;
+}
