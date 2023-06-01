@@ -97,7 +97,7 @@ aside {
 
 .icon-list {
   height: 100%;
-  border-left: 1px solid orange;
+  border-left: 1px solid var(--clr-primary-300);
   margin: 0;
   margin-left: 4rem;
 
