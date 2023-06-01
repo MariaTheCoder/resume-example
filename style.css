@@ -102,6 +102,7 @@ aside {
 
   list-style: none;
   display: grid;
+  align-content: center;
   gap: 3rem;
 }
 
