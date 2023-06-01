@@ -93,3 +93,9 @@ aside {
   display: grid;
   grid-auto-flow: column;
 }
+
+.icon-list {
+  list-style: none;
+  display: grid;
+  gap: 3rem;
+}
