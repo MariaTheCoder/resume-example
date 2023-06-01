@@ -32,7 +32,6 @@
 *::after {
   box-sizing: border-box;
   padding: 0;
-  margin: 0;
 }
 
 /* basic reset for img and svg elements, as well as pictures and videos*/
@@ -88,6 +87,15 @@ main {
 aside {
   grid-column: 1;
   align-self: stretch;
+}
+
+.eyebrow {
+  color: var(--clr-secondary-400);
+  font-size: var(--fs-300);
+  font-weight: var(--fw-bold);
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  margin: 0;
 }
 
 .job-experience {
