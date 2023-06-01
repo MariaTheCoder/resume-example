@@ -99,3 +99,8 @@ aside {
   display: grid;
   gap: 3rem;
 }
+
+.icon {
+  height: 100px;
+  width: auto;
+}
