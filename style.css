@@ -1,3 +1,4 @@
+/* basic reset for all elements of the DOM as well as their psuedo elements*/
 *,
 *::before,
 *::after {
@@ -6,6 +7,7 @@
   margin: 0;
 }
 
+/* basic reset for img and svg elements, as well as pictures and videos*/
 img,
 svg,
 picture,
@@ -42,10 +44,12 @@ video {
   --fs-700: 3.25rem;
 }
 
+/* set dark theme */
 html {
   color-scheme: dark;
 }
 
+/* use custom variables for styling of the body element */
 body {
   color: var(--clr-neutral-100);
   font-family: var(--ff-base);
