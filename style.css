@@ -113,5 +113,17 @@ aside {
 }
 
 .icon-list > li {
+  position: relative;
   padding-left: 3rem;
+}
+
+.icon-list > li::after {
+  content: "";
+  position: absolute;
+
+  /* specify width and then use aspect-ratio to declare the relationship between width and height
+  By doing this, we are saying that there is a 1 to 1 ratio between width and height*/
+  width: 0.5rem;
+  aspect-ratio: 1;
+  background: var(--clr-neutral-100);
 }
