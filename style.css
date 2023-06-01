@@ -135,4 +135,7 @@ aside {
   /* by using transform, we can move the position of our pseudo elements on the horizontal plane. 
   In our case, we want to move the elements to the left by an amount corresponding to half the width of the elements, therefore by -50% */
   transform: translateX(-50%);
+
+  /* use outline to draw a line around the pseudo elements. The distance between the pseudo elements and the outline is given, give the outline a style of solid and set the color to one of the previously defined custom variables */
+  outline: 0.5rem solid var(--clr-primary-400);
 }
