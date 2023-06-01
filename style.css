@@ -121,6 +121,10 @@ aside {
   content: "";
   position: absolute;
 
+  /* Relocate the individual pseudo elements relative to the li elements */
+  top: 0.5rem;
+  left: 0;
+
   /* specify width and then use aspect-ratio to declare the relationship between width and height
   By doing this, we are saying that there is a 1 to 1 ratio between width and height*/
   width: 0.5rem;
