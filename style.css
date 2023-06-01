@@ -51,6 +51,7 @@ html {
 
 /* use custom variables for styling of the body element */
 body {
+  background-color: var(--clr-primary-800);
   color: var(--clr-neutral-100);
   font-family: var(--ff-base);
   font-size: var(--fs-400);
