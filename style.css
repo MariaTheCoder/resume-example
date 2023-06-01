@@ -1,21 +1,3 @@
-/* basic reset for all elements of the DOM as well as their psuedo elements*/
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-
-/* basic reset for img and svg elements, as well as pictures and videos*/
-img,
-svg,
-picture,
-video {
-  max-width: 100%;
-  display: block;
-}
-
 :root {
   /* colors */
   --clr-neutral-100: hsla(0, 0%, 100%, 1);
@@ -42,6 +24,24 @@ video {
   --fs-500: 1.375rem;
   --fs-600: 1.75rem;
   --fs-700: 3.25rem;
+}
+
+/* basic reset for all elements of the DOM as well as their psuedo elements*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* basic reset for img and svg elements, as well as pictures and videos*/
+img,
+svg,
+picture,
+video {
+  max-width: 100%;
+  display: block;
 }
 
 /* set dark theme */
