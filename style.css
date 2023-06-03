@@ -113,6 +113,7 @@ aside {
 
 .job-experience {
   display: grid;
+  justify-content: start;
   gap: 1rem;
   grid-auto-flow: column;
   overflow-x: auto;
