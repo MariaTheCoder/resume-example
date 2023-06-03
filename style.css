@@ -126,6 +126,11 @@ aside {
   margin: 0;
 }
 
+.job > h2,
+span {
+  min-height: 4.2rem;
+}
+
 .job-info {
   display: flex;
   justify-content: space-between;
