@@ -140,6 +140,11 @@ aside {
   letter-spacing: 0.15rem;
 }
 
+.role {
+  font-size: var(--fs-600);
+  line-height: 1.2;
+}
+
 .company {
   text-align: end;
   color: var(--clr-primary-200);
