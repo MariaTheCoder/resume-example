@@ -107,8 +107,9 @@ aside {
   margin: 0;
 }
 
-.info {
+.intro {
   font-size: var(--fs-500);
+  max-width: 75ch;
 }
 
 .job-experience {
