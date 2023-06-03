@@ -115,6 +115,23 @@ aside {
   gap: 1rem;
   grid-auto-flow: column;
   overflow-x: auto;
+  padding-bottom: 2rem;
+}
+
+.job-experience::-webkit-scrollbar {
+  /* set a specific height to the scrollbar */
+  height: 0.75rem;
+}
+
+.job-experience::-webkit-scrollbar-track {
+  /* set a dark color for track / the progress bar of the scrollbar */
+  background-color: var(--clr-primary-800);
+}
+
+.job-experience::-webkit-scrollbar-thumb {
+  /* give the draggable scrolling handle a noticable color and make it pill-shaped */
+  background-color: var(--clr-accent-400);
+  border-radius: 100vw;
 }
 
 .job {
