@@ -129,12 +129,23 @@ aside {
 .job-info {
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: center;
   margin-bottom: 1rem;
+}
+
+.year {
+  color: var(--clr-accent-400);
+  font-size: var(--fs-300);
+  font-weight: var(--fw-bold);
+  letter-spacing: 0.15rem;
 }
 
 .company {
   text-align: end;
+  color: var(--clr-primary-200);
+  font-size: var(--fs-300);
+  font-weight: var(--fw-bold);
+  text-transform: uppercase;
 }
 
 .icon-list {
