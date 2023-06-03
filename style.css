@@ -126,6 +126,7 @@ aside {
 .job-experience::-webkit-scrollbar-track {
   /* set a dark color for track / the progress bar of the scrollbar */
   background-color: var(--clr-primary-800);
+  border-radius: 100vw;
 }
 
 .job-experience::-webkit-scrollbar-thumb {
