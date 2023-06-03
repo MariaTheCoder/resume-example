@@ -72,6 +72,7 @@ body {
 .main-grid {
   display: grid;
   grid-template-columns: 15rem 1fr;
+  gap: 5vw;
   grid-auto-flow: dense;
   align-items: center;
   /* the first value set for min-height acts as a fallback in case the unit dvh is not supported by the browser */
@@ -83,7 +84,7 @@ body {
 
 main {
   grid-column: 2;
-  width: calc(100vw - 15rem);
+  width: calc(100vw - 15rem - 5vw);
 }
 
 aside {
