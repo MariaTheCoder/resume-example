@@ -126,6 +126,16 @@ aside {
   margin: 0;
 }
 
+.job-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.company {
+  text-align: end;
+}
+
 .icon-list {
   height: 100%;
   border-left: 1px solid var(--clr-primary-300);
