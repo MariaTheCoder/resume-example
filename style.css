@@ -70,9 +70,15 @@ body {
 }
 
 .main-grid {
+  /* use the clamp function to set the at minimum allowed margin, the preferred valuea nd then the maximum value
+  Note that we might come back later and change these numbers */
+  --_aside-width: clamp(7.5rem, 20vw, 15rem);
+  --_main-width: 1fr;
+  --_gap-size: 10vw;
+
   display: grid;
-  grid-template-columns: 15rem 1fr;
-  gap: 5vw;
+  grid-template-columns: var(--_aside-width) var(--_main-width);
+  gap: var(--_gap-size);
   grid-auto-flow: dense;
   align-items: center;
   /* the first value set for min-height acts as a fallback in case the unit dvh is not supported by the browser */
@@ -85,12 +91,14 @@ body {
 main {
   padding: 2rem 0;
   grid-column: 2;
-  width: calc(100vw - 15rem - 5vw);
+  width: calc(100vw - var(--_gap-size) - var(--_aside-width));
 }
 
 aside {
   grid-column: 1;
   align-self: stretch;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .eyebrow {
@@ -202,10 +210,6 @@ span {
   height: 100%;
   border-left: 1px solid var(--clr-primary-300);
   margin: 0;
-
-  /* use the clamp function to set the at minimum allowed margin, the preferred valuea nd then the maximum value
-  Note that we might come back later and change these numbers */
-  margin-left: clamp(1rem, 10vw, 4rem);
 
   list-style: none;
   display: grid;
