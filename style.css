@@ -83,6 +83,7 @@ body {
 }
 
 main {
+  padding: 2rem 0;
   grid-column: 2;
   width: calc(100vw - 15rem - 5vw);
 }
