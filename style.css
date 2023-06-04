@@ -249,3 +249,28 @@ span {
   /* use outline to draw a line around the pseudo elements. The distance between the pseudo elements and the outline is given, give the outline a style of solid and set the color to one of the previously defined custom variables */
   outline: 0.5rem solid var(--clr-primary-400);
 }
+
+/* use of media query for responsive design */
+@media (max-width: 820px) {
+  .main-grid {
+    grid-template-columns: 0 1fr;
+    gap: 0;
+  }
+
+  main {
+    padding: 1rem 1rem;
+    width: 100vw;
+  }
+
+  aside {
+    display: none;
+  }
+
+  .job-experience::after {
+    display: none;
+  }
+
+  .job {
+    width: calc(100vw - 2rem);
+  }
+}
