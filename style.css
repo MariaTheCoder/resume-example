@@ -224,7 +224,7 @@ span {
 
 .icon-list > li {
   position: relative;
-  padding-left: 3rem;
+  padding-left: 1rem;
 }
 
 .icon-list > li::after {
@@ -232,7 +232,7 @@ span {
   position: absolute;
 
   /* Relocate the individual pseudo elements relative to the li elements */
-  top: 0.5rem;
+  top: 3rem;
   left: 0;
 
   /* specify width and then use aspect-ratio to declare the relationship between width and height
