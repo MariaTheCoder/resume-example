@@ -270,6 +270,14 @@ span {
     display: none;
   }
 
+  .year {
+    min-height: 7.5vh;
+  }
+
+  .job-info {
+    min-height: 20.5vh;
+  }
+
   .job {
     width: calc(100vw - 2rem);
   }
