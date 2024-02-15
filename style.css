@@ -123,13 +123,22 @@ aside {
 }
 
 .job-experience {
+  display: flex;
+  flex-direction: column;
+
+  overflow-x: auto;
+  padding: 2rem 0;
+}
+
+.current-title {
+  color: var(--clr-accent-400);
+}
+
+.jobs {
   display: grid;
   justify-content: start;
   gap: 1rem;
   grid-auto-flow: column;
-  position: relative;
-  overflow-x: auto;
-  padding: 2rem 0;
 }
 
 .job-experience::-webkit-scrollbar {
@@ -149,7 +158,7 @@ aside {
   border-radius: 100vw;
 }
 
-.job-experience::after {
+.jobs::after {
   content: "";
   width: 50px;
   background: transparent;
@@ -164,14 +173,6 @@ aside {
 
 .job * {
   margin: 0;
-}
-
-.job:first-child::before {
-  content: "Current role";
-  position: absolute;
-  color: var(--clr-accent-400);
-  top: 0;
-  left: 0;
 }
 
 .job > h2,
