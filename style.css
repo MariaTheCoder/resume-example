@@ -275,7 +275,10 @@ span {
   }
 
   .job-info {
-    min-height: 20.5vh;
+    /* min-height: 20.5vh; */
+    display: grid;
+    grid-template-rows: repeat(2, max-content);
+    align-items: end;
   }
 
   .job {
